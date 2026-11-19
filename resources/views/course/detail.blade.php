@@ -8,7 +8,7 @@
         </tr>
         <tr>
             <th>Duration</th>
-            <td>{{ $course->duration }} hours</td>
+            <td>{{ $course->duration }} weeks</td>
         </tr>
         <tr>
             <th>Fee</th>

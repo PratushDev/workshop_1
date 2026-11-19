@@ -22,7 +22,7 @@
                 @foreach ($courses as $course)
                     <tr>
                         <td>{{ $course->name }}</td>
-                        <td>{{ $course->duration }} hours</td>
+                        <td>{{ $course->duration }} weeks</td>
                         <td>{{ $course->fee }}</td>
                         <td>{{ $course->difficulty }}</td>
                         <td>{{ $course->is_active ? 'Active' : 'Inactive' }}</td>

@@ -4,7 +4,7 @@
 
 <x-form-textarea name="description" label="Description" :value="$course?->description" />
 
-<x-form-input name="duration" label="Duration (hours)" type="number" :value="$course?->duration" required min="1" />
+<x-form-input name="duration" label="Duration (weeks)" type="number" :value="$course?->duration" required min="1" />
 
 <x-form-input name="fee" label="Fee" type="number" :value="$course?->fee" required min="0" step="0.01" />
 
